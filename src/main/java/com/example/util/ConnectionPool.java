@@ -15,7 +15,7 @@ public class ConnectionPool {
     private final String password = "your_password"; // Замените на ваш пароль
 
     private ConnectionPool() {
-        // Пул соединений может быть настроен здесь
+
     }
 
     public static ConnectionPool getInstance() {

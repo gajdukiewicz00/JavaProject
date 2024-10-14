@@ -4,7 +4,6 @@
          http://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd"
          version="6.0">
 
-    <!-- Маппинг сервлетов -->
     <servlet>
         <servlet-name>DoubleNumberServlet</servlet-name>
         <servlet-class>com.example.controller.DoubleNumberServlet</servlet-class>
@@ -41,7 +40,6 @@
         <url-pattern>/logout</url-pattern>
     </servlet-mapping>
 
-    <!-- Страницы ошибок -->
     <error-page>
         <error-code>404</error-code>
         <location>/error404.jsp</location>

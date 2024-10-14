@@ -16,7 +16,6 @@ public class LoginServlet extends HttpServlet {
         String username = request.getParameter("username");
         String password = request.getParameter("password");
 
-        // Простой логин и пароль (можно заменить на проверку через БД)
         if ("admin".equals(username) && "admin".equals(password)) {
             HttpSession session = request.getSession();
             session.setAttribute("user", username);
