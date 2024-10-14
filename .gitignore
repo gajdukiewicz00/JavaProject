@@ -1,0 +1,98 @@
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### IntelliJ IDEA ###
+.idea/modules.xml
+.idea/jarRepositories.xml
+.idea/compiler.xml
+.idea/libraries/
+*.iws
+*.iml
+*.ipr
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
+
+# Maven target directory
+/target/
+
+# Eclipse specific files
+.classpath
+.project
+.settings/
+
+# IntelliJ IDEA specific files
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# Logs
+*.log
+logs/
+*.out
+
+# Operating system specific files
+.DS_Store
+Thumbs.db
+
+# Tomcat files
+*.war
+*.ear
+
+# Database files
+*.db
+*.sql
+*.sqlite
+
+# Compiled Java class files
+*.class
+
+# JAR files
+*.jar
+*.war
+*.ear
+
+# Log4j2 configuration
+/logs/
+
+# IDE working directory logs
+hs_err_pid*
+
+# Node specific (if using Node.js in parts of the project)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Miscellaneous
+*.swp
+*.swo
+
+# Generated resources
+/target/classes/
+/target/test-classes/

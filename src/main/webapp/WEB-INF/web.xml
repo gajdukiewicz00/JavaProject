@@ -1,0 +1,53 @@
+<web-app xmlns="http://jakarta.ee/xml/ns/jakartaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://jakarta.ee/xml/ns/jakartaee
+         http://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd"
+         version="6.0">
+
+    <!-- Маппинг сервлетов -->
+    <servlet>
+        <servlet-name>DoubleNumberServlet</servlet-name>
+        <servlet-class>com.example.controller.DoubleNumberServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DoubleNumberServlet</servlet-name>
+        <url-pattern>/doubleNumber</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AddEntryServlet</servlet-name>
+        <servlet-class>com.example.controller.AddEntryServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddEntryServlet</servlet-name>
+        <url-pattern>/addEntry</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>com.example.controller.LoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/login</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>LogoutServlet</servlet-name>
+        <servlet-class>com.example.controller.LogoutServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LogoutServlet</servlet-name>
+        <url-pattern>/logout</url-pattern>
+    </servlet-mapping>
+
+    <!-- Страницы ошибок -->
+    <error-page>
+        <error-code>404</error-code>
+        <location>/error404.jsp</location>
+    </error-page>
+    <error-page>
+        <error-code>500</error-code>
+        <location>/error500.jsp</location>
+    </error-page>
+</web-app>
