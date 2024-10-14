@@ -10,9 +10,9 @@ public class ConnectionPool {
     private static ConnectionPool instance;
     private static final Lock lock = new ReentrantLock();
 
-    private final String jdbcUrl = "jdbc:postgresql://localhost:5432/your_db_name"; // Замените на ваше имя базы данных
-    private final String username = "your_username"; // Замените на ваше имя пользователя
-    private final String password = "your_password"; // Замените на ваш пароль
+    private final String jdbcUrl = "jdbc:postgresql://localhost:5432/your_db_name";
+    private final String username = "your_username";
+    private final String password = "your_password";
 
     private ConnectionPool() {
 
